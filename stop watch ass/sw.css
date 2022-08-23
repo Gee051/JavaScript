@@ -1,0 +1,89 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+html, body {
+    height: 100%;
+    
+}
+
+body {
+    padding: 10px 10%;
+    font-size: 18px;
+    font-weight: 300;
+    display: flex;
+    align-items: center;
+    background-color: #c5a5a5;
+
+
+}
+
+.all{
+    background: #c5a5a5;
+    box-shadow: 15px 15px 30px#ffffff,-15px -15px 30px #ffffff;
+    border-radius:40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 10vmin;
+    font-weight: 600;
+    margin: 50px auto 20px;
+    max-width: 600px;
+
+}
+
+.first {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 550px;
+    height: 200px;
+    max-width: 700px;
+}
+
+.second {
+    margin-bottom: 70px;
+}
+
+.second button{
+    gap: 35px;
+    font-size: 22px;
+    font-weight: 600;
+    border:none;
+    color:white;
+    width:110px;
+    height:55px;
+    justify-content: space-evenly;
+    transition:0.2s;
+    border-radius:40px;
+    box-shadow: 6px -6px 8px #9d9d9d, -6px 6px 8px #ffffff;
+}
+
+.second button:active {
+    color: aqua;
+          
+}
+
+.second #start {
+    background-color: rgb(26, 122, 26);
+
+}
+
+    
+.second #pause {
+    background-color:  rgb(189, 27, 27);
+
+}
+
+
+
+.second #reset {
+    background-color: rgb(34, 34, 184);
+
+}
+
+  

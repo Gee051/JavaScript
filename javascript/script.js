@@ -7,7 +7,7 @@ myBtn.onclick = function () {
 
 // created 2 constant for h1 and button
 // Added a click event to the button
-// when thr button is clicked, the content of the h1 is changed 
+// when the button is clicked, the content of the h1 is changed 
 
 
 // usage of const -> is a keyword used for declaring constant
@@ -57,4 +57,107 @@ myBtn.onclick = function () {
 // planet = 'Venus'
 // console.log(planet)
 
-// Operators
+// Operators -> allows us to operate on certain values to give new results
+// Unary operators -> Operators that only need one operand
+/**
+ * uary plus (+)
+ * increment/decrement (++)/(--)
+ */
+
+// let num ='90'
+// Number(), parseInt(), parseFloat()
+// console.log(+num +7) -> Unary Plus
+
+
+// let count = 5
+// ++count -> PreIncrement/Decrement
+// count++ -> PostIncrement/Decrement
+
+let surname = 'Eze'
+// let full name = `micheal` + surname
+let fullname = `micheal ${surname}.${ 34 ** 8}`
+console.log(fullname)
+
+
+// Assignment
+let count = 0
+count += 5
+count-=2
+count*10
+count/=7
+count%=4
+console.log(count)
+
+// Arithmetic Operators
+console.log(2+2)
+console.log(2 * 2 /6)
+console.log(4 % 5)
+console.log("iosd" - 10)
+
+// Comparison -> Results in a boolean
+// console.log(2 > 1.5)
+// console.log(4 < 0.15)
+// console.log(45 < 45)
+// console.log(78 >= 78.5)
+// console.log('8'== 8)
+// console.log('8'=== 8)
+// console.log(2 != '2')
+// console.log(2 !== '2')
+
+
+// Logical operatoes
+// AND (&&)
+console.log(true && true) //true
+console.log(true && false) //false
+console.log(false && false) // false
+
+// lunchPack = true
+// schoolBag = true
+// if (lunchPack && schoolBag) {
+//     console.log('go to school')
+// } else{
+//     console.log('stay at home')
+// }
+
+// OR (||)
+console.log(true || true)
+console.log(false || true)
+console.log(true || false)
+
+let isCold = false
+let isCoke = false
+if (isCoke && isCold) {
+    console.log("But the coke")
+} else if (isCoke || isCold) {
+    console.log("Buy its as long as it is cold or its a coke")
+} else {
+    console.log("Don't but anything")
+}
+// NOT (!)
+
+let input = prompt("Enter a password")
+let expected = 'banana'
+
+if (input !== expected) {
+    console.log('wrong password')
+} else {
+    console.log('login successful')
+}
+
+
+
+
+
+
+
+
+
+
+// Binary Operators -> operators that need atleast two operands
+/**
+ * Assignment -> =, +=, -=, /=, !==
+ * Arithmetic Operators -> +,-,*,/,%
+ * Comparison ->  >, <, >=, <=, ==, ===, =!, !==
+ * Logical Operators -> &&,||,!
+ * Nullish Coalescing Operator -> ??
+ */
